@@ -17,6 +17,8 @@ import urllib
 import pyodbc
 from pandas import json_normalize
 
+####ZMIANA ZMIANA ZMIANA
+
 # Trusted Connection to Named Instance
 connection = pyodbc.connect('DRIVER={SQL Server};SERVER=DESKTOP-CDF9303\MSSQLSERVER01;DATABASE=crypto_database;Trusted_Connection=yes;')
 cursor = connection.cursor()
